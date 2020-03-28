@@ -1,0 +1,41 @@
+html, head, body, p{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: #C9C4C2;
+}
+
+.clock p{
+  text-align: center;
+  padding: 100px;
+  padding-top: 110px;
+  font-size: 35px;
+}
+
+.clock{
+  border-bottom: 10px solid #f50;
+  background-color: #fa0;
+  padding-bottom: 140px;
+}
+
+#time{
+  color: #f00;
+  font-size: 100px;
+  text-align: center;
+  padding: 100px 0px;
+  vertical-align: center;
+}
+
+footer{
+  background-color: #C9C4C2;
+  text-align: center;
+  font-size: 30px;
+  color: black;
+}
+
+footer a{
+  color: #000;
+  font-size: 35px;
+}
