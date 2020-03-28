@@ -1,0 +1,150 @@
+html, body, header, h4, ul, p{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+	background-color: black;
+}
+
+header h4{
+	float: left;
+	font-size: 36px;
+	padding: 20px 40px;
+	font-weight: normal;
+}
+
+header a{
+	text-decoration: none;
+	color: #1AC3E5;
+}
+
+header a:hover{
+	color: #f50;
+}
+
+header li{
+	font-size: 20px;
+	list-style: none;
+	float: right;
+	padding: 33px 30px;
+}
+
+header{
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	z-index: 10;
+    background-color: #000;
+    width: 100%;
+    height: 90px;
+    color: #1AC3E5;
+}
+
+.intro{
+	margin-top: 90px;
+	padding: 40px 0px;
+	font-size: 45px;
+	text-align: center;
+	background-color: #fff;
+	letter-spacing: 8px;
+	line-height: 70px;
+	position: relative;
+	z-index: 1;
+}
+
+.bgcol{
+	position: absolute;
+	z-index: -1;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	background-image: url("intro_img.jpg");
+	opacity: 0.3;
+	width: 100%;
+	height: 100%;
+}
+
+.intro_1{
+	padding: 0px 120px;
+}
+
+.intro_2{
+	padding: 0px 200px;
+}
+
+.whyCode{
+	background-color: orange;
+	list-style: none;
+	display: grid;
+	grid-template-columns: 35% 65%;
+	font-size: 40px;
+}
+
+.text{
+	vertical-align: middle;
+	padding-left: 30px;
+}
+
+.list{
+	font-size: 35px;
+	letter-spacing: 8px;
+	line-height: 60px;
+}
+
+.where{
+	width: 100%;
+	background-color: #C9C4C2;
+	display: grid;
+	grid-template-areas: 
+	"lang-intro lang-intro" 
+	"lang-list pros-cons";
+	grid-template-rows: 25% 75%;
+	grid-template-columns: 35% 65%;
+}
+
+.lang-intro{
+	grid-area: lang-intro;
+	text-align: center;
+	font-size: 40px;
+}
+
+.lang-list ul{
+	grid-area: lang-list;
+	list-style: none;
+	padding: 200px;
+	font-size: 35px;
+	line-height: 60px;
+}
+
+.langs{
+	color: #000;
+}
+
+.pros-cons{
+	grid-area: pros-cons;
+	font-size: 35px;
+	line-height: 60px;
+}
+
+.pros-cons p{
+	font-weight: bold;
+}
+
+.langContent{
+	display: none;
+}
+
+footer{
+  	background-color: black;
+  	text-align: center;
+  	font-size: 25px;
+  	color: white;
+}
+
+footer a{
+	text-decoration: none; 
+  	color: #1AC3E5;
+  	font-size: 20px;
+}
