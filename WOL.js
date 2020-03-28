@@ -1,6 +1,7 @@
 const langList = document.querySelectorAll(".langs");
 const langListContent = document.querySelectorAll(".langContent");
 
+langList[0].style.color = "#FF4D00";
 langListContent[0].style.display = "initial";
 
 const change = (curLang) => {
