@@ -139,12 +139,15 @@ header{
 footer{
   	background-color: black;
   	text-align: center;
-  	font-size: 25px;
+  	font-size: 20px;
   	color: white;
 }
 
+footer p{
+	color: gray;
+}
+
 footer a{
-	text-decoration: none; 
+	text-decoration: none;
   	color: #1AC3E5;
-  	font-size: 20px;
 }
